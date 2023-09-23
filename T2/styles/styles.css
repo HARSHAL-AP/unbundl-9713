@@ -1,0 +1,871 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.herosection {
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+}
+header {
+  width: 100%;
+  height: 40px;
+  background-color: #98a88d;
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.herosectioncls {
+  width: 100%;
+  height: 73vh;
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: -1;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+}
+.slide {
+  min-width: 100%;
+  flex: 1;
+}
+.slide > h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 300px;
+  color: #fff;
+}
+.slide > p {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+.slide > div {
+  width: 170px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 50px;
+}
+#slide1 {
+  height: 100%;
+  background-image: url("https://nack.life/cdn/shop/files/desktopcover_1280x.jpg?v=1695204317");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#slide2 {
+  height: 100%;
+  background-image: url("https://nack.life/cdn/shop/files/desktopbanner_1280x.jpg?v=1692342864");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#slide3 {
+  height: 100%;
+  background-image: url("https://nack.life/cdn/shop/files/Carousel_Web_Banner_img-01_1280x.jpg?v=1684483241");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.sublinks {
+  width: 30%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkbutons,
+.usericonsc > p {
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.linkbutons:hover,
+.usericonsc > p:hover {
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+  border-bottom: 1px solid #fff;
+}
+.logoc {
+  width: 40%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoc > img {
+  width: 75px;
+}
+.usericonsc {
+  width: 30%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 30px;
+  padding-right: 30px;
+}
+.usericonsc > button {
+  width: 35px;
+  height: 35px;
+  background-color: #98a88d00;
+  border: 0;
+  color: #fff;
+}
+.favitomslider {
+  height: 70vh;
+  width: 100%;
+  background-color: #98a88d00;
+}
+
+#hamburgmenue {
+  display: none;
+}
+#mobinnav {
+  width: 90%;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  background-color: #ffffff;
+}
+.favritcontenr {
+  width: 100%;
+
+  background-color: #ffffff;
+}
+.favdesc {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 700;
+}
+.favhead {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.slider-container2 {
+  width: 65%;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider2 {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide22 {
+  flex: 3;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+  font-size: 35px;
+}
+
+.next-button {
+  right: 10px;
+  font-size: 35px;
+}
+
+.eelectrocon {
+  width: 70%;
+
+  margin: auto;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+.elehed {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 35%;
+}
+.elheading {
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 10px;
+}
+.eldesc {
+  width: 80%;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.readmorebutton {
+  width: 150px;
+  height: 45px;
+  background-color: #face93;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.eelectrocon > img,
+.eelectrocon2 > img {
+  height: 700px;
+  width: 40%;
+}
+.eelectrocon2 {
+  width: 70%;
+
+  margin: auto;
+  margin-top: 100px;
+  gap: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.proconter {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.proconter > img {
+  width: 40%;
+}
+.prodeccon {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.podescholder {
+  background-color: #f2efec;
+  padding: 50px;
+}
+
+.elehed2 {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.elheading2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 10px;
+}
+.eldesc2 {
+  width: 80%;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.expretssec {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #f2efec;
+}
+.expresthol {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expresthol > img {
+  width: 50%;
+}
+.expredecdata {
+  width: 50%;
+}
+.pursit {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+.pursit > h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.pursit > p {
+  max-width: 740px;
+  margin-top: 35px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.pursit > h5 {
+  max-width: 740px;
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.botomtop {
+  width: 100%;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  background-color: #f2efec;
+}
+.botomtop > h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+}
+.botomtopcon {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.botomtopcon > div {
+  width: 30%;
+}
+.botomtopcon > div > img {
+  width: 100%;
+}
+.botomtopcon > div > h1 {
+  font-size: 19px;
+  margin-top: 15px;
+}
+.botomtopcon > div > p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.botomtopcon > div > h4 {
+  width: 100px;
+  font-size: 15px;
+  margin-top: 25px;
+  border-bottom: 2px solid rgb(87, 77, 13);
+}
+
+.fotter {
+  width: 100%;
+  margin-top: 75px;
+  background-color: black;
+}
+.foterhead {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.footlogo {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  padding-top: 50px;
+}
+.footlogo > img {
+  width: 120px;
+}
+.footlogo > div {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blgolink{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 50px;
+    color: #fff;
+}
+.blgolink>p{
+  color: #fff;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.blgolink2{
+    width: 30%;
+    color: #fff;
+    margin-top: 50px;
+}
+.blgolink2>input{
+    width: 100%;
+    height: 45px;
+   margin-top: 15px;
+    color: #fff;
+}
+#chekbox{
+    width: 20px;
+    height: 20px;
+}
+.blgolink2>button{
+    width: 100%;
+    height: 45px;
+    background-color: #face93;
+    margin-top: 15px;
+}
+.copyst{
+    width: 100%;
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+}
+@media (max-width: 780px) {
+  .herosection {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+  }
+  header {
+    width: 100%;
+    height: 40px;
+    background-color: #98a88d;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  .herosectioncls {
+    width: 100%;
+    height: 73vh;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: -1;
+  }
+
+  .slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+  }
+  .slide {
+    min-width: 100%;
+    flex: 1;
+  }
+  .slide > h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    color: #fff;
+  }
+  .slide > p {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  .slide > div {
+    width: 170px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #slide1 {
+    height: 100%;
+    background-image: url("https://nack.life/cdn/shop/files/mobilecover_1_780x.jpg?v=1695204372");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #slide2 {
+    height: 100%;
+    background-image: url("https://nack.life/cdn/shop/files/mobilebanner_780x.jpg?v=1692343446");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #slide3 {
+    height: 100%;
+    background-image: url("https://nack.life/cdn/shop/files/Carousel_Web_Banner_img-02_780x.jpg?v=1684483260");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .sublinks {
+    width: 30%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .linkbutons,
+  .usericonsc > p {
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 15px;
+    display: none;
+  }
+  .linkbutons:hover,
+  .usericonsc > p:hover {
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 15px;
+    border-bottom: 1px solid #fff;
+  }
+  .logoc {
+    width: 40%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoc > img {
+    width: 75px;
+  }
+  .usericonsc {
+    width: 30%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 30px;
+    padding-right: 30px;
+  }
+  .usericonsc > button {
+    width: 35px;
+    height: 35px;
+    background-color: #98a88d00;
+    border: 0;
+    color: #fff;
+  }
+  .favitomslider {
+    height: 70vh;
+    width: 100%;
+    background-color: #98a88d00;
+  }
+  .favritcontenr {
+    width: 100%;
+    height: 400px;
+  }
+  #hamburgmenue {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-color: #66fe0000;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+  #mobinnav {
+    width: 90%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background-color: #ffffff;
+    -webkit-animation: scale-up-hor-left 0.4s
+      cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  @-webkit-keyframes scale-up-hor-left {
+    0% {
+      -webkit-transform: scaleX(0.4);
+      transform: scaleX(0.4);
+      -webkit-transform-origin: 0% 0%;
+      transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+      transform-origin: 0% 0%;
+    }
+  }
+  @keyframes scale-up-hor-left {
+    0% {
+      -webkit-transform: scaleX(0.4);
+      transform: scaleX(0.4);
+      -webkit-transform-origin: 0% 0%;
+      transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+      transform-origin: 0% 0%;
+    }
+  }
+  #mobinnav > button {
+    width: 35px;
+    height: 35px;
+    background-color: #66fe0000;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .linkbutonsmobi {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 5px;
+  }
+  .slider-container2 {
+    width: 100%;
+  }
+
+  .slider2 {
+    width: 100%;
+  }
+  .eelectrocon,
+  .eelectrocon2 {
+    width: 90%;
+
+    margin: auto;
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .eelectrocon > img,
+  .eelectrocon2 > img {
+    height: 730px;
+    width: 100%;
+  }
+  .elehed {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  .proconter {
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+    display: block;
+
+    flex-direction: column;
+  }
+
+  .proconter > img {
+    width: 100%;
+  }
+  .prodeccon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .podescholder {
+    width: 90%;
+    background-color: #f2efec;
+    padding: 50px;
+  }
+
+  .elehed2 {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 100px;
+  }
+  .elheading2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .eldesc2 {
+    width: 80%;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .expretssec {
+    width: 100%;
+    background-color: #f2efec;
+  }
+  .expresthol {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .expresthol > img {
+    width: 100%;
+  }
+  .expredecdata {
+    width: 80%;
+  }
+  .pursit {
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .pursit > h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .pursit > p {
+    max-width: 740px;
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .pursit > h5 {
+    max-width: 740px;
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .botomtopcon {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    padding-bottom: 35px;
+  }
+  .botomtopcon > div {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .botomtopcon > div > img {
+    width: 100%;
+  }
+  .botomtopcon > div > h1 {
+    font-size: 19px;
+    margin-top: 15px;
+  }
+  .botomtopcon > div > p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .botomtopcon > div > h4 {
+    width: 100px;
+    font-size: 15px;
+    margin-top: 25px;
+    border-bottom: 2px solid rgb(87, 77, 13);
+  }
+  .fotter {
+    width: 100%;
+    margin-top: 75px;
+    background-color: black;
+  }
+  .foterhead {
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .footlogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    padding-top: 50px;
+  }
+  .footlogo > img {
+    width: 120px;
+  }
+  .footlogo > div {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .blgolink{
+      width:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-direction: row;
+      flex-flow: wrap;
+      margin-top: 50px;
+      color: #fff;
+  }
+  .blgolink>p{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: underline;
+  }
+  .blgolink2{
+      width: 90%;
+      margin: auto;
+      color: #fff;
+      margin-top: 50px;
+  }
+  .blgolink2>input{
+      width: 100%;
+      height: 45px;
+     margin-top: 15px;
+      color: #fff;
+  }
+  #chekbox{
+      width: 20px;
+      height: 20px;
+  }
+  .blgolink2>button{
+      width: 100%;
+      height: 45px;
+      background-color: #face93;
+      margin-top: 15px;
+  }
+}
